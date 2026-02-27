@@ -1,18 +1,18 @@
-def estimate_time(password: str) -> str:
+def estimate_cracking_time(entropy):
 
-    charset_size = 0
-    if any(c.islower() for c in password):
-        charset_size += 26
-    if any(c.isupper() for c in password):
-        charset_size += 26
-    if any(c.isdigit() for c in password):
-        charset_size += 10
-    if any(not c.isalnum() for c in password):
-        charset_size += 32
-
-    combinations = charset_size ** len(password)
-    attempts_per_second = 1_000_000_000
-    seconds = combinations / attempts_per_second
-
-    return f"{seconds:.2e} seconds"
-
+    guesses_per_second = 10**10
+    
+    total_combinations = 2**entropy
+    
+    seconds = total_combinations / guesses_per_second
+    
+    if seconds < 60:
+        return f"{round(seconds, 2)} Seconds"
+    elif seconds < 3600:
+        return f"{round(seconds/60, 2)} Minutes"
+    elif seconds < 86400:
+        return f"{round(seconds/3600, 2)} Hours"
+    elif seconds < 31536000:
+        return f"{round(seconds/86400, 2)} Days"
+    else:
+        return f"{round(seconds/31536000, 2)} Years"
