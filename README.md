@@ -55,7 +55,7 @@ This project uses only Python standard library. No external dependencies are req
 
 ---
 
-## 🧪 Running Tests  
+## Running Tests  
 To run the unit tests:  
 ```bash
 python -m unittest discover tests
