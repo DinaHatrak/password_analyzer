@@ -2,12 +2,12 @@
 
 # Password Security Analyzer  
 
-## 📌 Description  
+## Description  
 A comprehensive Python tool designed to evaluate password strength using **Shannon entropy**, **NIST standards**, and brute force estimation. This project was developed as part of the **CS50 Cybersecurity curriculum** to demonstrate secure coding practices, data analysis, and practical password evaluation.  
 
 ---
 
-## 📂 Project Structure  
+## Project Structure  
 - **project.py** → The main entry point of the application.  
 - **analysis/** → Contains logic for Shannon Entropy calculation and brute force cracking time estimation.  
 - **src/** → Includes NIST compliance checks and security utilities.  
@@ -15,7 +15,7 @@ A comprehensive Python tool designed to evaluate password strength using **Shann
 
 ---
 
-## ⚙️ How to Run  
+##  How to Run  
 Run the main script from the terminal:  
 ```bash
 python project.py
@@ -29,7 +29,7 @@ You will be prompted to enter a password. The analyzer will then generate a deta
 
 ---
 
-## 🎯 Example Output  
+##  Example Output  
 ```bash
 Enter password: Tr0ub4dor&3
 --- Password Analysis for: Tr0ub4dor&3 ---
@@ -41,7 +41,7 @@ Estimated Cracking Time: 2.5 Years
 
 ---
 
-## ✅ Key Features  
+## Key Features  
 - Evaluates password strength using **mathematical entropy**.  
 - Validates compliance with **NIST password standards**.  
 - Estimates cracking time against brute force attacks.  
@@ -50,7 +50,7 @@ Estimated Cracking Time: 2.5 Years
 
 ---
 
-## 📦 Dependencies  
+## Dependencies  
 This project uses only Python standard library. No external dependencies are required.  
 
 ---
