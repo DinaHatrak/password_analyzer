@@ -5,7 +5,6 @@ def main():
     # Test password
     password = input("Enter password: ")
 
-    #password = "Dina_Security_2026!" 
     
     print(f"--- Password Analysis for: {password} ---")
 
