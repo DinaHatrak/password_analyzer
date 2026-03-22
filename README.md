@@ -1,6 +1,6 @@
 
 
-# Password Security Analyzer  
+# Password Analyzer  
 
 ## Description  
 -A practical Python project that combines entropy math, NIST standards, and brute force estimation to evaluate the strength of your password.
@@ -25,9 +25,9 @@ The program will ask you to enter a password. After that, it will show a report 
 
 ## Key Features  
 - Evaluates password strength using **mathematical entropy**.  
-- Validates compliance with **NIST password standards**.  
-- Estimates cracking time against brute force attacks.  
-- Provides actionable **feedback** to improve password security.  
-- Includes **unit tests** for reliability.  
+- Makes sure it follows NIST rules.  
+- Shows how long brute force might take.
+- Gives simple tips to make it stronger.
+-- Has tests to ensure everything works.
 
 
