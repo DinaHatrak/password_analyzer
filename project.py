@@ -3,7 +3,9 @@ from src import nist_check
 
 def main():
     # Test password
-    password = "Dina_Security_2026!" 
+    password = input("Enter password: ")
+
+    #password = "Dina_Security_2026!" 
     
     print(f"--- Password Analysis for: {password} ---")
 
