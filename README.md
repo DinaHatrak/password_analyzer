@@ -28,5 +28,5 @@ The program will ask you to enter a password. After that, it will show a report 
 - Makes sure it follows NIST rules.  
 - Shows how long brute force might take.
 - Gives simple tips to make it stronger.
-   Has tests to ensure everything works.
+- Has tests to ensure everything works.
 
