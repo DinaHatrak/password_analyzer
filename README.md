@@ -3,8 +3,7 @@
 # Password Security Analyzer  
 
 ## Description  
-A comprehensive Python tool designed to evaluate password strength using **Shannon entropy**, **NIST standards**, and brute force estimation. This project was developed as part of the **CS50 Cybersecurity curriculum** to demonstrate secure coding practices, data analysis, and practical password evaluation.  
-
+A practical Python project that combines entropy math, NIST standards, and brute force estimation to evaluate the strength of your password.
 ---
 
 ## Project Structure  
